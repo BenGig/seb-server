@@ -18,7 +18,7 @@ USER spring:spring
 
 # Test if existing files prohibit mounting of Kubernetes ConfigMaps
 # COPY docker/testing/distributed/webservice/config/ /sebserver/config/
-COPY docker/testing/distributed/start-sebserver.sh seb-server.jar /sebserver/
+COPY docker/start-sebserver.sh seb-server.jar /sebserver/
 
 WORKDIR /sebserver
 
